@@ -64,6 +64,14 @@ class User extends Authenticatable
     }
 
     /**
+     * Get the work trips for the user.
+     */
+    public function workTrips(): HasMany
+    {
+        return $this->hasMany(WorkTrip::class);
+    }
+
+    /**
      * Get the user's initials
      */
     public function initials(): string
