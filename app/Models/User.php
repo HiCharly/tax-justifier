@@ -56,6 +56,14 @@ class User extends Authenticatable
     }
 
     /**
+     * Get the vehicles for the user.
+     */
+    public function vehicles(): HasMany
+    {
+        return $this->hasMany(Vehicle::class);
+    }
+
+    /**
      * Get the user's initials
      */
     public function initials(): string
