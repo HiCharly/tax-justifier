@@ -7,4 +7,10 @@ return [
 
         'name' => 'Nom',
     ],
+    'vehicle' => [
+        'vehicle' => 'véhicule|véhicules',
+        'my_vehicles' => 'Mes véhicules',
+
+        'name' => 'Nom',
+    ],
 ];
