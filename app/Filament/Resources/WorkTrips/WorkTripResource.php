@@ -5,6 +5,7 @@ namespace App\Filament\Resources\WorkTrips;
 use App\Filament\Resources\WorkTrips\Pages\CreateWorkTrip;
 use App\Filament\Resources\WorkTrips\Pages\EditWorkTrip;
 use App\Filament\Resources\WorkTrips\Pages\ListWorkTrips;
+use App\Filament\Resources\WorkTrips\Pages\WeeklyWorkTrips;
 use App\Filament\Resources\WorkTrips\Schemas\WorkTripForm;
 use App\Filament\Resources\WorkTrips\Tables\WorkTripsTable;
 use App\Models\WorkTrip;
@@ -44,6 +45,7 @@ class WorkTripResource extends Resource
             'index' => ListWorkTrips::route('/'),
             'create' => CreateWorkTrip::route('/create'),
             'edit' => EditWorkTrip::route('/{record}/edit'),
+            'weekly' => WeeklyWorkTrips::route('/weekly'),
         ];
     }
 
