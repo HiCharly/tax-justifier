@@ -2,8 +2,8 @@
 
 namespace App\Policies;
 
-use App\Models\Vehicle;
 use App\Models\User;
+use App\Models\Vehicle;
 
 class VehiclePolicy
 {

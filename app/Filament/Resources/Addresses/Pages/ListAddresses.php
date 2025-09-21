@@ -22,6 +22,4 @@ class ListAddresses extends ListRecords
     {
         return __('app.address.my_addresses');
     }
-
-
 }
