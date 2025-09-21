@@ -20,7 +20,7 @@ class WorkTripResource extends Resource
 {
     protected static ?string $model = WorkTrip::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::ArrowsRightLeft;
 
     public static function form(Schema $schema): Schema
     {
