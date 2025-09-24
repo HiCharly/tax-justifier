@@ -99,6 +99,13 @@ class WeeklyWorkTrips extends Page
     public function mount(): void
     {
         $this->week_starting = now()->startOfWeek();
+
+        $settings = app()->make('App\Settings\WorkTripSettings');
+        foreach (self::DAYS as $day) {
+            $this->{$day.'_vehicle_id'} = $settings->default_vehicle_id;
+            $this->{$day.'_home_address_id'} = $settings->default_home_address_id;
+            $this->{$day.'_work_address_id'} = $settings->default_work_address_id;
+        }
     }
 
     protected function getFormSchema(): array
