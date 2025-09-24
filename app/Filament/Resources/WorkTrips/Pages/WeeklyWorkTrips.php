@@ -100,11 +100,17 @@ class WeeklyWorkTrips extends Page
     {
         $this->week_starting = now()->startOfWeek();
 
-        $settings = app()->make('App\Settings\WorkTripSettings');
+        $settings = app(\App\Settings\WorkTripSettings::class);
         foreach (self::DAYS as $day) {
-            $this->{$day.'_vehicle_id'} = $settings->default_vehicle_id;
-            $this->{$day.'_home_address_id'} = $settings->default_home_address_id;
-            $this->{$day.'_work_address_id'} = $settings->default_work_address_id;
+            if($settings->default_vehicle_id) {
+                $this->{$day.'_vehicle_id'} = $settings->default_vehicle_id;
+            }
+            if($settings->default_home_address_id) {
+                $this->{$day.'_home_address_id'} = $settings->default_home_address_id;
+            }
+            if($settings->default_work_address_id) {
+                $this->{$day.'_work_address_id'} = $settings->default_work_address_id;
+            }
         }
     }
 
