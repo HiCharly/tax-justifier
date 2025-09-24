@@ -22,6 +22,10 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'date',
+        'vehicle_id',
+        'home_address_id',
+        'work_address_id',
     ];
 
     /**
@@ -53,6 +57,22 @@ class User extends Authenticatable
     public function addresses(): HasMany
     {
         return $this->hasMany(Address::class);
+    }
+
+    /**
+     * Get the vehicles for the user.
+     */
+    public function vehicles(): HasMany
+    {
+        return $this->hasMany(Vehicle::class);
+    }
+
+    /**
+     * Get the work trips for the user.
+     */
+    public function workTrips(): HasMany
+    {
+        return $this->hasMany(WorkTrip::class);
     }
 
     /**
