@@ -3,6 +3,7 @@
 ![Laravel](https://img.shields.io/badge/Laravel-12.x-red?logo=laravel)
 ![PHP](https://img.shields.io/badge/PHP-8.4-blue?logo=php)
 ![Build Status](https://img.shields.io/github/actions/workflow/status/hicharly/tax-justifier/tests.yml?branch=main&logo=github)
+[![Laravel Forge Site Deployment Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fforge.laravel.com%2Fsite-badges%2Fc1b72dbe-9fcc-416d-8729-45f0e9cf4200%3Fdate%3D1&style=plastic)](https://forge.laravel.com/servers/954062/sites/2862359)
 
 A modern Laravel application for managing professional travel expenses and generating tax reports. Built with Laravel 12, Livewire 3, and Filament 4.
 
