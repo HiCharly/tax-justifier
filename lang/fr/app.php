@@ -29,6 +29,10 @@ return [
         'default_home_address' => 'Adresse du domicile par défaut',
         'default_work_address' => 'Adresse de travail par défaut',
         'default_vehicle' => 'Véhicule par défaut',
+
+        'trips_count' => ':count jours en présentiel',
+        'no_trips' => 'Aucun trajet',
+        'no_trips_last_year' => 'Aucun trajet enregistré l\'année dernière',
     ],
     'day' => [
         'monday' => 'Lundi',
