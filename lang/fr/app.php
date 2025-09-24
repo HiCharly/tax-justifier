@@ -24,6 +24,11 @@ return [
         'date' => 'Date',
         'home_address' => 'Adresse du domicile',
         'work_address' => 'Adresse de travail',
+
+        'configure_defaults' => 'Valeurs par défaut',
+        'default_home_address' => 'Adresse du domicile par défaut',
+        'default_work_address' => 'Adresse de travail par défaut',
+        'default_vehicle' => 'Véhicule par défaut',
     ],
     'day' => [
         'monday' => 'Lundi',

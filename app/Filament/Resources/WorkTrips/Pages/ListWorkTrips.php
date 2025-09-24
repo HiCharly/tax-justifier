@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\WorkTrips\Pages;
 
+use App\Filament\Pages\WorkTrips\WorkTripDefaults;
 use App\Filament\Resources\WorkTrips\WorkTripResource;
 use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
@@ -20,7 +21,12 @@ class ListWorkTrips extends ListRecords
                 ->icon('heroicon-o-calendar-days')
                 ->url(fn (): string => WorkTripResource::getUrl('weekly'))
                 ->color('primary'),
-            CreateAction::make(),
+            Action::make('manage_work_trips')
+                ->label(__('app.work_trip.configure_defaults'))
+                ->icon('heroicon-o-cog-6-tooth')
+                ->url(WorkTripDefaults::getUrl())
+                ->color('gray'),
+            CreateAction::make()->color('gray'),
         ];
     }
 
