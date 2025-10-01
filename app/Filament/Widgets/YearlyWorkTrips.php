@@ -28,7 +28,7 @@ abstract class YearlyWorkTrips extends StatsOverviewWidget
             ->whereYear('date', $this->year)
             ->get()
             ->groupBy(function ($trip) {
-                return $trip->homeAddress->name . ' → ' . $trip->workAddress->name;
+                return sprintf('%s → %s (%s)', $trip->homeAddress->name, $trip->workAddress->name, $trip->vehicle->name);
             });
 
         $stats = [];
