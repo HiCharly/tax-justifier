@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "acb5ce4d91a37673f44ecca0fe4fcdc4",
+    "content-hash": "ef07b01c69e683548330c6792f6a06bf",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -5318,16 +5318,16 @@
         },
         {
             "name": "resend/resend-php",
-            "version": "v0.21.0",
+            "version": "v0.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/resend/resend-php.git",
-                "reference": "16d481c8347d2b2aa9910ca0ae7f252b2f7d8b8c"
+                "reference": "66b30f7b09030c5ffc24c9bb8b6ac358f03fcdd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/resend/resend-php/zipball/16d481c8347d2b2aa9910ca0ae7f252b2f7d8b8c",
-                "reference": "16d481c8347d2b2aa9910ca0ae7f252b2f7d8b8c",
+                "url": "https://api.github.com/repos/resend/resend-php/zipball/66b30f7b09030c5ffc24c9bb8b6ac358f03fcdd9",
+                "reference": "66b30f7b09030c5ffc24c9bb8b6ac358f03fcdd9",
                 "shasum": ""
             },
             "require": {
@@ -5369,9 +5369,9 @@
             ],
             "support": {
                 "issues": "https://github.com/resend/resend-php/issues",
-                "source": "https://github.com/resend/resend-php/tree/v0.21.0"
+                "source": "https://github.com/resend/resend-php/tree/v0.22.0"
             },
-            "time": "2025-09-24T05:02:03+00:00"
+            "time": "2025-10-14T17:58:44+00:00"
         },
         {
             "name": "ryangjchandler/blade-capture-directive",
