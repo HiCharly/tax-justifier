@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef07b01c69e683548330c6792f6a06bf",
+    "content-hash": "955da8f20b689374ad1e19e61debfe1d",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -5367,16 +5367,16 @@
         },
         {
             "name": "resend/resend-php",
-            "version": "v0.22.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/resend/resend-php.git",
-                "reference": "66b30f7b09030c5ffc24c9bb8b6ac358f03fcdd9"
+                "reference": "c1ce4ee5dc8ca90a5e6a2dc6d772a06abbe7c9d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/resend/resend-php/zipball/66b30f7b09030c5ffc24c9bb8b6ac358f03fcdd9",
-                "reference": "66b30f7b09030c5ffc24c9bb8b6ac358f03fcdd9",
+                "url": "https://api.github.com/repos/resend/resend-php/zipball/c1ce4ee5dc8ca90a5e6a2dc6d772a06abbe7c9d3",
+                "reference": "c1ce4ee5dc8ca90a5e6a2dc6d772a06abbe7c9d3",
                 "shasum": ""
             },
             "require": {
@@ -5386,7 +5386,7 @@
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.13",
                 "mockery/mockery": "^1.6",
-                "pestphp/pest": "^2.0"
+                "pestphp/pest": "^2.0|^3.0|^4.0"
             },
             "type": "library",
             "autoload": {
@@ -5418,9 +5418,9 @@
             ],
             "support": {
                 "issues": "https://github.com/resend/resend-php/issues",
-                "source": "https://github.com/resend/resend-php/tree/v0.22.0"
+                "source": "https://github.com/resend/resend-php/tree/v1.1.0"
             },
-            "time": "2025-10-14T17:58:44+00:00"
+            "time": "2025-11-26T08:41:40+00:00"
         },
         {
             "name": "ryangjchandler/blade-capture-directive",
